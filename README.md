@@ -14,3 +14,9 @@ You should see the following response:
   "status": "ok"
 }
 ```
+
+
+### Generic
+- Spring Boot + Postgres + JWT auth
+- Features: RBAC (admin/user), pagination, search, upload attachments (S3-compatible storage), audit logging
+- Deliverables: README, OpenAPI/Swagger, Postman collection, CI, Dockerfile, Makefile, seed data, 70%+ test coverage
