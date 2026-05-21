@@ -4,7 +4,7 @@ package com.sandra.task_team_api.health;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.boot.test.autoconfigure.*;
 
@@ -25,3 +25,13 @@ class HealthControllerTest {
                 .andExpect(jsonPath("$.status").value("ok"));
     }
 }
+
+
+//@WebMvcTest
+//class HealthControllerTest {
+//
+//    @Test
+//    void contextLoads() {
+//
+//    }
+//}
